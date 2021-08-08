@@ -1652,6 +1652,9 @@ func asmbElf(ctxt *Link) {
 
 			case objabi.Hsolaris:
 				interpreter = thearch.Solarisdynld
+
+			case objabi.Hhaiku:
+				interpreter = thearch.Haikudynld
 			}
 		}
 

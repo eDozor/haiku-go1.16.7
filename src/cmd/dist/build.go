@@ -1576,6 +1576,7 @@ var cgoEnabled = map[string]bool{
 	"windows/386":     true,
 	"windows/amd64":   true,
 	"windows/arm":     false,
+	"haiku/amd64":     true,
 }
 
 // List of platforms which are supported but not complete yet. These get
