@@ -4,6 +4,8 @@
 
 @echo off
 
+set GOOS=haiku
+
 setlocal
 
 if exist make.bat goto ok
