@@ -3,7 +3,7 @@
 ### Haiku Doc
 Haiku x86_64
 1. Install golang 1.4.3 on HaikuDepot
-2. Make symbolic link go1.4 in /boot/home/ to /boot/system/non-packaged/lib
+2. Make symbolic link go1.4 in /boot/home/ to /boot/system/non-packaged/lib/go
 3. git clone https://github.com/eDozor/haiku-go1.16.7.git
 4. run all.bash in ./src
 
