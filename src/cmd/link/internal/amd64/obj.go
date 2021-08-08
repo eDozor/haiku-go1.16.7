@@ -105,8 +105,8 @@ func archinit(ctxt *ld.Link) {
 		objabi.Hnetbsd,    /* netbsd */
 		objabi.Hopenbsd,   /* openbsd */
 		objabi.Hdragonfly, /* dragonfly */
-		objabi.Hsolaris:   /* solaris */
-		objabi.Hhaiku:   /* haiku */
+		objabi.Hsolaris,   /* solaris */
+		objabi.Hhaiku:     /* haiku */
 		ld.Elfinit(ctxt)
 
 		ld.HEADR = ld.ELFRESERVE
