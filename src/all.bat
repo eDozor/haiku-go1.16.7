@@ -4,9 +4,11 @@
 
 @echo off
 
-set GOOS=haiku
+
 
 setlocal
+set GOOS=haiku
+set GOBUILDTIMELOGFIL=c:\code\Haiku\log.txt
 
 if exist make.bat goto ok
 echo all.bat must be run from go\src
